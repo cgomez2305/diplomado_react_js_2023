@@ -48,3 +48,17 @@ function showBebidas(){
         element.style.display="none";
     });
 } 
+postres.addEventListener("click", showPostres);
+function showPostres(){
+    principal_product.forEach(element => {
+        element.style.display="none";
+    });
+    bebidas_product.forEach(element => {
+        element.style.display="none";
+    });
+    postres_product.forEach(element => {
+        element.style.display="block";
+    });
+} 
+
+
