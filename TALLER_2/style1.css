@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind', sans-serif;
+}
+main h1{
+    font-weight: 700;
+    text-align: center;
+}
+.container{
+    margin-inline: 150px;
+}
+.container-products{
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50PX;
+}
+.container-products-categories{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container-products-categories a{
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    padding-block: 20px;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: rgb(8, 197, 255);
+    border-radius: 10px;
+}
+
+.container-products-all{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.product-item img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px ;
+}
+.product-item{
+    width: 20%;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px ;
+    background-color: rgb(194, 194, 194);
+}
