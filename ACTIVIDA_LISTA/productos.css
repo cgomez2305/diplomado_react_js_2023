@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Quicksand:wght@600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1{
+    padding-top: 20px;
+    text-align: center;
+}
+.container{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.caja{
+    display: grid;
+    justify-content: center;
+    width: 20%;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(131, 175, 255);
+}
+
+.caja .caja3 img{
+    display: grid;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    justify-content: left;
+    border: solid 2px white;
+}
+.caja .caja3{
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+}
+.caja .caja3 h3{
+    font-size: 25px;
+}
+.caja h2{
+    text-align: center;
+}
